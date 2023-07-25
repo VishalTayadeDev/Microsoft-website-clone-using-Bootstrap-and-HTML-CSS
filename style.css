@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root{
+    --primary-color:#fff;
+}
+
+#container{
+   width: 99%;
+   margin: 0 auto;
+   background-color: var(--primary-color);
+}
+
+.navbar{
+    width: 90%;
+   margin: 0 auto;
+}
+
+.logos-microsoft{
+    width: 108px;
+}
+
+
+
+.carousel-caption{
+    width: 80%;
+    padding: 20%;
+    position: absolute;
+    top:-6rem;
+    left: 25% !important;
+    text-align: left;
+   
+}
+
+#carousel-caption{
+    width: 80%;
+    padding-inline: 27%;
+    position: absolute;
+    top:-6rem;
+    
+    text-align: left;
+    margin-left:10rem ;
+}
+
+.row{
+    display: flex;
+    flex-direction: row !important;
+}
+
+.card{
+    width: 15rem;
+}
+
+
+
+.ms-section{
+    width: 90% !important;
+    height: 550px;
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP4-1260x600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    vertical-align: middle;
+    margin-inline: 3rem;
+
+
+}
+
+footer{
+    height: 25rem;
+
+}
+
+.footer-section{
+    
+    font-size: 13px;
+    margin-top: 30px;
+    margin-inline: 10px;
+}
+
+.sub-footer{
+    height: 5rem;
+    
+}
+
+.sub-footer-container{
+    margin-inline: 50px;
+}
